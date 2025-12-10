@@ -495,7 +495,7 @@ const DemoView = () => {
                       <img 
                         src={`${import.meta.env.BASE_URL}use-cases-demo-title.png?v=2`}
                         alt="USE CASES DEMO"
-                        className="w-full max-w-[175%] sm:max-w-[165%] md:max-w-[156%] lg:max-w-[146%] xl:max-w-[137%] h-auto mx-auto"
+                        className="w-full max-w-[228%] sm:max-w-[215%] md:max-w-[203%] lg:max-w-[190%] xl:max-w-[178%] h-auto mx-auto"
                         style={{ filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.3))' }}
                       />
                       {/* Removed subtitle paragraph */}
