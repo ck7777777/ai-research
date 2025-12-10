@@ -491,16 +491,15 @@ const DemoView = () => {
                  {/* Bottom fade to blend into background */}
                  <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-cream via-cream/80 to-transparent"></div>
                  
-                 <div className="relative z-10 text-center w-full max-w-6xl mx-auto px-4 sm:px-6 -mt-16">
-                      <img 
-                        src={`${import.meta.env.BASE_URL}use-cases-demo-title.png?v=4`}
+<div className="relative z-10 text-center w-full mx-auto -mt-16 flex justify-center items-center overflow-visible">
+                     <img 
+                        src={`${import.meta.env.BASE_URL}use-cases-demo-title.png?v=5`}
                         alt="USE CASES DEMO"
-                        className="w-[119%] md:w-[143%] max-w-none h-auto mx-auto"
+                        className="w-[119%] md:w-[143%] max-w-none h-auto"
                         style={{ 
                           filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.3))'
                         }}
                       />
-                      {/* Removed subtitle paragraph */}
                  </div>
              </div>
 
