@@ -493,13 +493,11 @@ const DemoView = () => {
                  
                  <div className="relative z-10 text-center w-full max-w-6xl mx-auto px-4 sm:px-6 -mt-16">
                       <img 
-                        src={`${import.meta.env.BASE_URL}use-cases-demo-title.png?v=3`}
+                        src={`${import.meta.env.BASE_URL}use-cases-demo-title.png?v=4`}
                         alt="USE CASES DEMO"
-                        className="w-full h-auto mx-auto"
+                        className="w-[90%] sm:w-[95%] md:w-[140%] lg:w-[160%] xl:w-[180%] max-w-none h-auto mx-auto"
                         style={{ 
-                          filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.3))',
-                          transform: 'scale(1.4)',
-                          transformOrigin: 'center center'
+                          filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.3))'
                         }}
                       />
                       {/* Removed subtitle paragraph */}
