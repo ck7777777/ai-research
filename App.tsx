@@ -438,7 +438,7 @@ const DemoView = () => {
             subtitle: 'Dynamic Views',
             desc: "Experience how Gemini 3 Pro constructs a bespoke Van Gogh gallery interface in real-time. It doesn't just output text; it writes React code, styles it, and renders a fully interactive timeline and biography component based on a simple prompt.",
             icon: Layout,
-            video: '/videos/gen-ui-demo.mp4',
+            video: `${import.meta.env.BASE_URL}videos/gen-ui-demo.mp4`,
         },
         {
             id: 'agentic',
@@ -446,7 +446,7 @@ const DemoView = () => {
             subtitle: 'Achieve inbox zero',
             desc: "Gemini breaks down complex requests using tools like Deep Research; Canvas; your Google Workspace connected apps like Gmail and Calendar; and live web browsing. When using it, you remain in control: Gemini is designed to seek confirmation before critical actions, and you can take over anytime.",
             icon: Plane,
-            video: '/videos/agent-clear-inbox.mp4',
+            video: `${import.meta.env.BASE_URL}videos/agent-clear-inbox.mp4`,
         },
         {
             id: 'coding',
@@ -454,7 +454,7 @@ const DemoView = () => {
             subtitle: 'Generate code faster and smarter',
             desc: "With our new agentic development platform Google Antigravity, you can build faster and manage intelligent agents that operate across the editor, terminal and browser. Antigravity uses Gemini 3's advanced reasoning, tool use and agentic coding capabilities to act as your partner, generating code complex enough to work in the real world — like in the case of the classic cartpole problem.",
             icon: Code,
-            video: '/videos/coding-demo.mp4',
+            video: `${import.meta.env.BASE_URL}videos/coding-demo.mp4`,
         },
         {
             id: 'multimodal',
@@ -493,7 +493,7 @@ const DemoView = () => {
                  
                  <div className="relative z-10 text-center w-full max-w-6xl mx-auto px-4 sm:px-6 -mt-16">
                       <img 
-                        src="/use-cases-demo-title.png" 
+                        src={`${import.meta.env.BASE_URL}use-cases-demo-title.png`}
                         alt="USE CASES DEMO"
                         className="w-full max-w-[112%] sm:max-w-[106%] md:max-w-[100%] lg:max-w-[94%] xl:max-w-[88%] h-auto mx-auto"
                         style={{ filter: 'drop-shadow(0 0 20px rgba(255,255,255,0.3))' }}
